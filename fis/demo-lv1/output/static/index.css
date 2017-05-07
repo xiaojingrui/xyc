@@ -1,0 +1,1 @@
+.wrap li:before,.wrap li:after{content:"";display:table}.wrap li:after{clear:both}body{background-color:#F0A;font-size:60px}.wrap li{display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:-moz-flex;display:flex;font-size:30px;color:pink;list-style:none;opacity:.8}

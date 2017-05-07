@@ -1,0 +1,15 @@
+@import "./sass/sassCore/base";
+body {
+  background-color: #FF00AA;
+  font-size:60px;
+}
+.wrap{
+  li{
+    @include display-flex();
+    font-size:30px;
+    color:pink;
+    list-style: none;
+    @include clearfix();
+    @include opacity(80);
+  }
+}
